@@ -229,5 +229,51 @@
     // console.log(a.concat(b,c));
 
     // flat
-    const a = [1,[2,3],4,5,[6,[7,[8]]]]
-     console.log(a.flat(3));
+    // const a = [1,[2,3],4,5,[6,[7,[8]]]]
+    //  console.log(a.flat(3));
+
+    // indexof
+     // console.log(a.indexOf(3));
+
+    // findindex //find index will always give a answer as a first true value index
+    // const a =[12,14,18,20,34]
+    // console.log(a.findIndex((e)=>e>=18));
+
+    // find//  find will always give a answer as a first true value 
+    // console.log(a.find((e)=>e>=18));
+
+    //  includes // find the valu then give answer is boliyen type
+    // const a = [1,2,3,4,5,6,7]
+    // console.log(a.includes(6));
+
+    // some // some is any one value comes true give the answer also true like work or type
+    // const a = [12,22,32,42,52,62,72]
+    // console.log(a.some((e)=>e%2==0));
+
+    // every // every is all the value comes true 
+    // console.log(a.every((e)=>e%2==0));
+
+    // reduce //add the total element and give the valu
+    // console.log(a.reduce((prev,curr)=>prev+curr,0));    /*0 works on prev*/
+
+    // for each //
+    //  map //---it will return as a array
+    // const a = [1,2,3,4,5,6]
+    // // console.log(a.map((e)=>e*2));
+
+    // let ans=[]   //it will not return as array
+    //   a.forEach((num)=>{
+    //   //  console.log(num*2); 
+    //  ans.push(num*2)
+    //   })
+    //   console.log(ans);
+
+    //  join //
+    // const a = ["fita","acedamy"]
+    // console.log(a.join(" "));
+
+    // split//
+    const a = "this is fita"
+    console.log(
+      a.split(' ').reverse().join(" ").split('').reverse().join("")
+    );
